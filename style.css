@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
 .navbar.has-logo-above {
     flex-direction: column;
     justify-content: center;
@@ -10,15 +12,29 @@
 
 .hero-sec{
   align-items: stretch;
+  justify-content: center;
+  background: url("img/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35rem;
 }
 
-.hero-img {
-  width: 100%;
-  transform: rotate(6deg);
+.hero-title {
+  font-size: 3.7em;
+  text-align: center;
+  font-family: 'Antic Didone', serif;
+  color: white;
+  text-shadow: 1px 1px 25px black;
+  font-weight: bolder;
 }
 
 .hero-addy{
   width: 100%;
   bottom: 2rem;
   text-align: center;
+  font-family: 'Antic Didone', serif;
+  color: white;
+  font-size: 1.6em;
+  text-shadow: 2px 2px black;
 }
