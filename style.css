@@ -1,23 +1,24 @@
 .navbar.has-logo-above {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
   min-height: 55vh;
 }
 
-.hero-sec{
+.hero-sec {
   align-items: stretch;
 }
 
 .hero-img {
+  height: auto;
   width: 100%;
   transform: rotate(6deg);
 }
 
-.hero-addy{
+.hero-addy {
   width: 100%;
   bottom: 2rem;
   text-align: center;
