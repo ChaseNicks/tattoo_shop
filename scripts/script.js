@@ -13,7 +13,7 @@ $(document).ready(function() {
   
       el.innerHTML =
         text.substring(0, i + 1) + '<span aria-hidden="true"></span>'
-      setTimeout(() => _type(i + 1), 315)
+      setTimeout(() => _type(i + 1), 200)
     })()
   }
   
