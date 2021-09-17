@@ -23,7 +23,7 @@
 
 
 .hero-title {
-  font-size: 3.7em;
+  font-size: 3.5em;
   text-align: center;
   font-family: 'Antic Didone', serif;
   color: white;
@@ -59,7 +59,7 @@
 #section05 #scroll-span {
   position: absolute;
   left: 50%;
-  top: 72%;
+  top: 76%;
   width: 24px;
   height: 24px;
   margin-left: -12px;
