@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   // Scroll 
   jQuery(document).ready(function($) {
-    $('.section05').on('click', function(e) {
+    $('#section05').on('click', function(e) {
         e.preventDefault();
         const target = this.hash,
             $target = $(target);
