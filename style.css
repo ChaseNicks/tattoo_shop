@@ -119,6 +119,26 @@
   height: fit-content;
 }
 
+.justin {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.owner {
+  height: fit-content;
+  width: fit-content;
+  font-weight: bolder;
+}
+
+.pic-justin {
+  border-radius: 22.6em;
+  width: 10rem;
+  height: 10rem;
+}
+
 #aboutme {
   text-align: center;
   font-weight: 400;
