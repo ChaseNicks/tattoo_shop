@@ -133,6 +133,29 @@
   margin-top: 1.5rem;
 }
 
+#gallery-conatiner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+  margin-bottom: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+.gallery-section {
+  display: block;
+  flex: none;
+  width: 90%;
+  align-self: center;
+  height: fit-content;
+}
+
+#gallery {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+}
+
 .footer {
   background-color: rgb(45, 44, 44);
   color: gray;
