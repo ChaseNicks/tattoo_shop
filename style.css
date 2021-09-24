@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
 
-/* trying to get smooth scroll to work */
-/* html {
-  scroll-behavior: smooth;
-} */
+body {
+  background-color: black;
+}
 
 .navbar.has-logo-above {
   flex-direction: column;
@@ -177,8 +176,8 @@
 }
 
 .footer {
-  background-color: rgb(45, 44, 44);
-  color: gray;
+  background-color: #4a4a4a;
+  color: black;
 }
 
 .slider {
@@ -522,7 +521,7 @@ button.slick-prev:hover {
   justify-content: center;
   flex-direction: column;
   height: fit-content;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
   margin-top: 3.5rem;
 }
 
@@ -568,4 +567,3 @@ button.slick-prev:hover {
 .cell-c {
   margin-top: 1rem;
 }
-
