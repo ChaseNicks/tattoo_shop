@@ -108,6 +108,7 @@ body {
   height: fit-content;
   margin-bottom: 0;
   margin-top: 3.5rem;
+  color: #949393;
 }
 
 .about-section {
@@ -150,6 +151,7 @@ body {
   line-height: 1.5;
   font-size: 1.5em;
   margin-top: 1.5rem;
+  color: #949393;
 }
 
 #gallery-conatiner {
@@ -159,6 +161,7 @@ body {
   height: fit-content;
   margin-bottom: 2rem;
   margin-top: 3.5rem;
+  color: #949393;
 }
 
 .gallery-section {
@@ -523,6 +526,7 @@ button.slick-prev:hover {
   height: fit-content;
   margin-bottom: 3.5rem;
   margin-top: 3.5rem;
+  color: #949393;
 }
 
 .contact-section {
@@ -550,18 +554,21 @@ button.slick-prev:hover {
   margin-top: 2rem;
   height: 5rem;
   width: 5rem;
+  color: #949393;
 }
 
 #email {
   margin-top: 2rem;
   height: 5rem;
   width: 5rem;
+  color: #949393;
 }
 
 #loca {
   margin-top: 2rem;
   height: 5rem;
   width: 5rem;
+  color: #949393;
 }
 
 .cell-c {
