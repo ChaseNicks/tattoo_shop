@@ -179,7 +179,7 @@ body {
 }
 
 .footer {
-  background-color: #4a4a4a;
+  background-color: #949393;
   color: black;
 }
 
@@ -548,6 +548,7 @@ button.slick-prev:hover {
   text-align: center;
   font-weight: 200;
   font-size: 1.2em;
+  color: #949393;
 }
 
 #cell {
@@ -573,4 +574,5 @@ button.slick-prev:hover {
 
 .cell-c {
   margin-top: 1rem;
+  color: #949393;
 }
