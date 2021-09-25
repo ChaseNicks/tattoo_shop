@@ -21,7 +21,7 @@ body {
 .hero-sec {
   align-items: stretch;
   justify-content: center;
-  background-image: url("img/hero.jpeg");
+  background-image: url("../img/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -151,7 +151,7 @@ body {
 
 #aboutme-para {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.5;
   font-size: 1.5em;
   margin-top: 1.5rem;
@@ -550,7 +550,7 @@ button.slick-prev:hover {
 
 .contact {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.2em;
   color: #949393;
 }
