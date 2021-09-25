@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tattoo</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -64,7 +65,7 @@
     <!-- About Section -->
     <div id="aboutme-conatiner">
         <div class="about-section">
-            <h2 id="aboutme">Welcome to The Roaring Gallery</h2>
+            <h2 id="aboutme" class="aboutme-scroll">Welcome to The Roaring Gallery</h2>
             <div class="justin">
                 <img class="pic-justin" src="./img/gallery/justin.png">
                 <p class="owner">Owner | Justin Sane</p>
@@ -105,12 +106,12 @@
             <img id="cell" src="./img/smartphone.svg">
             <h3 class="contact cell-c" style="color: #949393;">(743) 444-5808</h3>
             <img id="email" src="./img/gmail.svg">
-            <a href="mailto:theroaringgallery111@aol.com" target="_blank"><h3 class="contact">TheRoaringGallery@gmail.com</h3></a>
+            <a href="mailto:theroaringgallery111@aol.com" target="_blank"><h3 class="contact email-scroll">TheRoaringGallery@gmail.com</h3></a>
             <img id="loca" src="./img/map.svg">
             <a href="https://www.google.com/maps/place/111+W+White+Dr,+Archdale,+NC+27263/@35.9126979,-79.9741635,17z/data=!3m1!4b1!4m5!3m4!1s0x88530c36da4c765d:0xc9a2be81c69e2597!8m2!3d35.9126979!4d-79.9719748"
                 target="_blank" style="color: #949393;">
      
-                <h3 class="contact">111 W. White Drive Archdale, NC</h3>
+                <h3 class="contact loca-scroll">111 W. White Drive Archdale, NC</h3>
             </a>
         </div>
     </div>
@@ -129,6 +130,7 @@
 
 
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/scroll.js"></script>
 </body>
 
 </html>
