@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+#navbarBasicExample {
+  background-color: #949393;
+}
+
 .footer {
   background-color: #949393;
   color: black;
