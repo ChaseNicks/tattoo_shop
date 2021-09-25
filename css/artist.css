@@ -23,36 +23,12 @@ body {
   color: black;
 }
 
-#aboutme-conatiner {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* height: fit-content; */
-  margin-bottom: 0;
-  color: #949393;
-}
-
-.about-section {
-  /* display: block; */
-  /* flex: none; */
-  width: 90%;
-  align-self: center;
-  /* height: fit-content; */
-}
-
 .art-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   height: fit-content;
 }
 
-
 .justin {
   margin-top: 1.5rem;
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .pic-justin {
