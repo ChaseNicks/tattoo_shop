@@ -531,6 +531,50 @@ button.slick-prev:hover {
   color: black;
 }
 
+.hours-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+  margin-bottom: 3.5rem;
+  margin-top: 3.5rem;
+  color: #949393;
+}
+
+.hours-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  font-size: 1em;
+}
+
+#hours {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.date {
+  text-align: right;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.5em;
+  margin-top: 1.5rem;
+  color: #949393;
+}
+
+.hour {
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.5em;
+  margin-top: 1.5rem;
+  color: #949393;
+}
+
 #contact-conatiner {
   display: flex;
   justify-content: center;
@@ -588,3 +632,4 @@ button.slick-prev:hover {
   margin-top: 1rem;
   color: #949393;
 }
+
