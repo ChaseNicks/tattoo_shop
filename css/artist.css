@@ -39,7 +39,6 @@ body {
   height: fit-content;
 }
 
-
 .pic {
   border-radius: 22.6em;
   width: 15rem;
@@ -449,7 +448,6 @@ button.slick-prev:hover {
   margin-top: 1.5rem;
   color: #949393;
 }
-
 
 #contact-conatiner {
   display: flex;
