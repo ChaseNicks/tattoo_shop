@@ -13,6 +13,8 @@ sr.reveal(`#aboutme-justin`,{origin: 'bottom', delay: 600});
 sr.reveal(`#aboutme-para, #aboutme-justin`,{origin: 'left', delay: 600});
 sr.reveal(`#gallery`,{delay: 600});
 sr.reveal(`.slider`,{origin: 'bottom', delay: 600});
+sr.reveal(`.hours-container`,{origin: 'top', delay: 400});
+sr.reveal(`#hours`,{origin: 'bottom', delay: 400});
 sr.reveal(`#contact`,{delay: 300});
 sr.reveal(`.cell-c, #cell`,{origin: 'left', delay: 300});
 sr.reveal(`.email-scroll, #email`,{origin: 'right', delay: 300});
