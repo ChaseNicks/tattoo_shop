@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./img/tattoo-machine.png" type="image/x-icon">
     <title>Tattoo</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/artist.css">
@@ -31,7 +32,7 @@
                 <a class="navbar-item" href="#gallery-conatiner" style="color: black;"> Gallary </a>
             </div>
             <div class="navbar-brand is-hidden-touch">
-                <h3 class="navbar-item is-size-4" style="color: black;">Welcome</h3>
+                <h3 class="navbar-item is-size-4" style="color: black;">TheRoaringGallery</h3>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
                     data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
@@ -46,16 +47,41 @@
         </div>
     </nav>
 
+    <h1 class="welcome">Checkout out our artist</h1>
+
     <section id="artist" class="section  has-text-centered">
 
-        <div class="art-container columns">
+        <div class="art-container columns is-desktop">
             <div class="column">
-
-                <h2 id="aboutme">Owner | Justin Sane</h2>
                 <div class="justin">
-                    <img class="pic-justin" src="../img/gallery/justin.png">
+                    <img class="pic" src="../img/gallery/justin.png">
                 </div>
+                <h2 id="aboutme-justin">Owner | Justin Sane</h2>
+                <p id="aboutme-para">Writing an ‘About Me’ page or section for yourself is never easy. However,
+                    the good
+                    news is if you
+                    follow the formula and tips below, you should be able to generate an engaging ‘About Me’
+                    statement
+                    without too much of a
+                    struggle. Here’s how to write an ‘About Me’ page you can be proud of.</p>
+                <div class="slider">
+                    <img src="../img/gallery/D9A423E5-FE4F-41D1-8591-ACDF89E571A6.jpg" />
+                    <img src="../img/gallery/IMG_20200818_112214_030.jpg" />
+                    <img src="../img/gallery/IMG_20200818_142633_020.jpg" />
+                    <img src="../img/gallery/unnamed.jpeg" />
+                    <img src="../img/gallery/unnassmed.jpeg" />
+                    <img src="../img/gallery/D9A423E5-FE4F-41D1-8591-ACDF89E571A6.jpg" />
+                    <img src="../img/gallery/313FDA41-A02A-4307-82F5-F4D7CF2894B0.jpg" />
+                    <img src="../img/gallery/IMG_8322.jpeg" />
+                    <img src="../img/gallery/IMG_8410.JPG" />
+                </div>
+            </div>
 
+            <div class="column">
+                <div class="justin">
+                    <img class="pic" src="../img/anon.jpeg">
+                </div>
+                <h2 id="aboutme-2">Artist | Coming Soon</h2>
                 <p id="aboutme-para">Writing an ‘About Me’ page or section for yourself is never easy. However,
                     the good
                     news is if you
@@ -64,37 +90,36 @@
                     without too much of a
                     struggle. Here’s how to write an ‘About Me’ page you can be proud of.</p>
 
-                        <img src="../img/hero.jpeg">
-
-                        <img src="../img/hero.jpeg">
-
-            </div>
-
-            <div class="column">
-
-                <h2 id="aboutme">Owner | Justin Sane</h2>
-                <div class="justin">
-                    <img class="pic-justin" src="../img/gallery/justin.png">
+                <div class="slider">
+                    <img src="../img/gallery/D9A423E5-FE4F-41D1-8591-ACDF89E571A6.jpg" />
+                    <img src="../img/gallery/IMG_20200818_112214_030.jpg" />
+                    <img src="../img/gallery/IMG_20200818_142633_020.jpg" />
+                    <img src="../img/gallery/unnamed.jpeg" />
+                    <img src="../img/gallery/unnassmed.jpeg" />
+                    <img src="../img/gallery/D9A423E5-FE4F-41D1-8591-ACDF89E571A6.jpg" />
+                    <img src="../img/gallery/313FDA41-A02A-4307-82F5-F4D7CF2894B0.jpg" />
+                    <img src="../img/gallery/IMG_8322.jpeg" />
+                    <img src="../img/gallery/IMG_8410.JPG" />
                 </div>
-
-                <p id="aboutme-para">Writing an ‘About Me’ page or section for yourself is never easy. However,
-                    the good
-                    news is if you
-                    follow the formula and tips below, you should be able to generate an engaging ‘About Me’
-                    statement
-                    without too much of a
-                    struggle. Here’s how to write an ‘About Me’ page you can be proud of.</p>
-                    <img src="../img/hero.jpeg">
-
-                    <img src="../img/hero.jpeg">
-
             </div>
-
         </div>
-
-
-
     </section>
+
+    <div id="contact-conatiner">
+        <div class="contact-section">
+            <h2 id="contact">Questions or Scheduling</h2>
+            <img id="cell" src="../img/smartphone.svg">
+            <h3 class="contact cell-c" style="color: #949393;">(743) 444-5808</h3>
+            <img id="email" src="../img/gmail.svg">
+            <a href="mailto:theroaringgallery111@aol.com" target="_blank"><h3 class="contact email-scroll">TheRoaringGallery@gmail.com</h3></a>
+            <img id="loca" src="../img/map.svg">
+            <a href="https://www.google.com/maps/place/111+W+White+Dr,+Archdale,+NC+27263/@35.9126979,-79.9741635,17z/data=!3m1!4b1!4m5!3m4!1s0x88530c36da4c765d:0xc9a2be81c69e2597!8m2!3d35.9126979!4d-79.9719748"
+                target="_blank" style="color: #949393;">
+     
+                <h3 class="contact loca-scroll">111 W. White Drive Archdale, NC</h3>
+            </a>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="content has-text-centered footer-cont">
@@ -106,7 +131,8 @@
         </div>
     </footer>
 
-    <script src="../scripts/script.js"></script>
+    <script src="../scripts/artists.js"></script>
+    <script src="../scripts/scroll-art.js"></script>
 </body>
 
 </html>
