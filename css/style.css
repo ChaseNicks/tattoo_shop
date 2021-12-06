@@ -119,14 +119,14 @@ body {
   flex-direction: column;
   height: fit-content;
   margin-bottom: 0;
-  margin-top: 3.5rem;
+  margin-top: 7rem;
   color: #949393;
 }
 
 .about-section {
   display: block;
   flex: none;
-  width: 90%;
+  width: 75%;
   align-self: center;
   height: fit-content;
 }
@@ -172,7 +172,7 @@ body {
   flex-direction: column;
   height: fit-content;
   margin-bottom: 2rem;
-  margin-top: 3.5rem;
+  margin-top: 7rem;
   color: #949393;
 }
 
@@ -537,7 +537,7 @@ button.slick-prev:hover {
   flex-direction: column;
   height: fit-content;
   margin-bottom: 3.5rem;
-  margin-top: 3.5rem;
+  margin-top: 5.5rem;
   color: #949393;
 }
 
@@ -581,7 +581,7 @@ button.slick-prev:hover {
   flex-direction: column;
   height: fit-content;
   margin-bottom: 3.5rem;
-  margin-top: 3.5rem;
+  margin-top: 5.5rem;
   color: #949393;
 }
 
@@ -646,4 +646,3 @@ button.slick-prev:hover {
   margin-left: 1.2rem;
   margin-bottom: 1.3rem;
 }
-
